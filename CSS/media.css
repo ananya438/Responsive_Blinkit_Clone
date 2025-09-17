@@ -2,6 +2,9 @@
     header{
         flex-direction: column;
     }
+    .header-left{
+        justify-content: center;
+    }
     .logo{
         padding: 10px;
     }
