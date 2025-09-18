@@ -6,13 +6,15 @@
 }
 header{
     display: flex;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 .header-left{
     display: flex;
     align-items: center;
 }
 .logo{
-    padding: 22px 30px;
+    padding: 24px 30px;
     border-right: 1px solid #ccc;
 }
 .header-address{
@@ -25,4 +27,8 @@ header{
 }
 .header-address p{
     font-size: 13px;
+}
+
+.search-box{
+    flex-grow: 1;
 }

@@ -11,4 +11,7 @@
     .header-address{
         padding: 10px;
     }
+    .header-address h3{
+        font-size: 15px;
+    }
 }
