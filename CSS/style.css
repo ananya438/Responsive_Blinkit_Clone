@@ -6,6 +6,8 @@
 }
 header{
     display: flex;
+    align-items: center;
+    gap: 40px;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
@@ -31,4 +33,62 @@ header{
 
 .search-box{
     flex-grow: 1;
+    display: flex;
+    border-radius: 15px;
+    background-color: #f8f8f8;
+    border:1px solid #f4f4f4;
+}
+.search-box button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+.search-box input{
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+}
+.search-box input:focus{
+    outline: none;
+}
+
+.headerbtn{
+    display: flex;
+    gap:40px;
+    margin-right: 40px;
+}
+.headerbtn button{
+    font-size: 16px;
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.headerbtn button:last-child{
+    /* last child matlb doosra button */
+    color: white;
+    height: 3.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: rgb(12,131,31);
+}
+.banner-section{
+    margin: 0px auto;
+    max-width: 1280px;
+}
+.banner-section img{
+    width: 100%;
+}
+.order-banner{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    /* gap: 20px; */
+}
+.orderbanner{
+    flex-basis: 27%;
+    margin: 1%;
+}
+.orderbanner img{
+    width: 100%;
 }
