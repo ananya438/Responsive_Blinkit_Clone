@@ -72,6 +72,10 @@ header{
     border-radius: 8px;
     background-color: rgb(12,131,31);
 }
+.headerbtn button:last-child:active{
+    background-color: rgb(9, 92, 23);
+
+}
 .banner-section{
     margin: 0px auto;
     max-width: 1280px;
@@ -85,10 +89,24 @@ header{
     margin: auto;
     /* gap: 20px; */
 }
-.orderbanner{
+.bannerItems{
     flex-basis: 27%;
     margin: 1%;
 }
-.orderbanner img{
+.bannerItems img{
+    width: 100%;
+}
+
+.category{
+    margin: auto;
+    max-width: 1280px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.categoryItems{
+    flex-basis: 10%;
+
+}
+.categoryItems img{
     width: 100%;
 }
