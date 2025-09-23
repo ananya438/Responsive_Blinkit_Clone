@@ -110,3 +110,60 @@ header{
 .categoryItems img{
     width: 100%;
 }
+.Product-section{
+    max-width: 1280px;
+    margin: auto;
+}
+.headingRow{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 16px
+}
+
+.headingRow h4{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+
+}
+.headingRow a{
+    color: #328839;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.productRow{
+    width: 100%;
+    display: flex;
+
+}
+
+.product-items{
+    flex-basis: 15%;
+
+    border: 1px solid #ccc;
+}
+
+.product-image{
+    text-align: center;
+    padding: 15px;
+}
+
+.product-image p{
+    background-color: #f8f8f8;
+    display: flex;
+    width: 60px;
+    gap: 3px;
+    align-items: center ;
+    justify-content: center;
+    padding: 2px;
+    font-size: 9px; 
+    text-align: left;
+   
+
+}
+
+.product-image p img{
+    width:12px;
+}
