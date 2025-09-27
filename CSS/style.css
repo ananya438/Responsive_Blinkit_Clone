@@ -113,12 +113,14 @@ header{
 .Product-section{
     max-width: 1280px;
     margin: auto;
+    margin-bottom: 30px;
 }
 .headingRow{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 16px
+    /* padding: 16px; */
+    margin-bottom: 15px;
 }
 
 .headingRow h4{
@@ -136,13 +138,14 @@ header{
 .productRow{
     width: 100%;
     display: flex;
-    gap:15px
+    gap:2%;
 
 }
 
 .product-items{
     flex-basis: 15%;
-
+    /* 10px blur  2px all direction*/
+    box-shadow: 2px 2px 8px 0px #d5d3d3;
     border: 1px solid #ccc;
     border-radius: 10px;
 }
@@ -201,4 +204,4 @@ header{
     font-weight: 600;
     cursor: pointer;
     background-color: white;
-}
+}  

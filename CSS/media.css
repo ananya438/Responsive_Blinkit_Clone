@@ -37,7 +37,19 @@
     }
 .categoryItems{
     flex-basis: 25%;
-
 }
+
+.productRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .product-items {
+    flex-basis: 48%;
+    width: 100%;
+  }
+
+  
+
  
 }
