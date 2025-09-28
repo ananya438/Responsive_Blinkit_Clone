@@ -40,13 +40,14 @@ header{
 }
 .search-box button{
     padding: 15px;
-    background-color: transparent;
+    background-color: #f8f8f8;
     border: none;
 }
 .search-box input{
     flex-grow: 1;
-    background-color: transparent;
+    background-color: #f8f8f8;
     border: none;
+    color: #999999;
 }
 .search-box input:focus{
     outline: none;
@@ -205,3 +206,57 @@ header{
     cursor: pointer;
     background-color: white;
 }  
+.footer{
+    padding: 40px 0px 0px 0px ;
+}
+.footer-mid{
+    max-width: 1280px;
+    margin: auto;
+}
+.row1{
+    display: flex;
+    width: auto;
+}
+.useful-links{
+    flex-basis: 30%;
+    flex-direction: column;
+    width: 100%;
+}
+.useful-links h7 {
+    font-size: 18px;
+    display: block;
+    margin: 20px 0px;
+}
+
+/* Here we are facing a problem we want it to look
+Blog
+Privacy 
+and not 
+Blog Privacy and this can't be ever possible using FLEX ,
+Instead we'll use GRID  */
+
+.link-content{
+    /* display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap:wrap; */ 
+    display: grid;
+    grid-template-rows: repeat(6,auto);
+    grid-auto-flow: column;
+    gap: 10px 35px;
+}
+.link-content p {
+    font-size: 14px;
+    color: #666666;
+    /* flex-basis: 26.66%; */
+}
+
+.categories{
+    flex-basis: 70%;
+}
+.part1{
+    margin: 20px 30px 0px 0px;
+    display: inline-block;
+}
+.part1 p {
+    display: inline;
+}
