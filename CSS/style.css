@@ -278,7 +278,7 @@ Instead we'll use GRID  */
     padding: 0px;
     grid-template-rows: repeat(10,auto);
     grid-auto-flow: column;
-    gap: 10px 0px;
+    gap: 12px 0px;
 }
 .categories .link-content p{
     display: inline-block;
@@ -287,16 +287,68 @@ Instead we'll use GRID  */
 }
 
 .footer-mid .row2{
+    background-color: #fcfcfc;
+    width: 100%;
+    padding: 50px 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.footer-mid .row2 p{
+    font-size: 12px;
+    color: rgb(102,102,102); 
+    flex-basis: 40%;
+    text-align: center;
+}
+.appIcons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-basis: 30%;
+    text-align: center;
 
 
 }
+.footer-mid .row2 h6{
+    font-size: 13px;
+    color: rgb(102,102,102);
 
+    
+}
+.footer-mid .row2 img{
+    width: 100px;
+    /* height: 25px; */
+}
+
+.footer-mid .row3{
+        width: 100%;
+
+}
 .footer-mid .row3 p{
-    width: 100%;
-    margin: 20px 0px;
-    font-size: 14px;
+    margin: 35px 0px 10px;
+    font-size: 15px;
     line-height: 20px;
     color: rgb(102,102,102);
+}
+.Slinks{
+    display: flex;
+    gap: 15px;
+    flex-basis: 30%;
+    width: 100%;
+
+}
+.Slinks i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 22px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

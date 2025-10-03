@@ -72,8 +72,27 @@
 
 }
 
-.footer-mid .row3{
-    margin: 15px 15px;
+.footer-mid .row3 p{
+    margin: 0px 10px 100px;
 }
+
+.footer-mid .row2{
+    padding: 50px 0px 40px;
+    flex-direction: column;
+}
+.appIcons{
+    padding: 30px 0px;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+.footer-mid .row2 img{
+    width: 100px;
+    /* height: 25px; */
+}
+
+.Slinks{
+justify-content: center;
+}
+
 
 }
