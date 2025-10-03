@@ -20,14 +20,14 @@
     .search-box button{
         padding: 10px;
     }
-    .headerbtn{
+    /* .headerbtn{
         position: fixed;
         background-color: white;
         width: 100%;
         margin-right: 0px;
         justify-content: center;
         bottom: 0px;
-    }
+    } */
     .banner-section{
         display: none;
     }
@@ -49,10 +49,31 @@
     width: 100%;
   }
 
-.footer-mid{
-    display: none;
+.row1{
+    flex-wrap: wrap;
 }
-.footer-mid .row3 p{
-    display: none;
+.useful-links{
+    flex-basis: 100%;
+    padding: 15px 20px ;
 }
+
+.link-content{
+    gap: 12px 35px;
+
+}
+.categories{
+    padding: 15px 20px;
+    flex-basis: 100%;
+
+}
+.categories .link-content{
+    grid-template-rows: repeat(15,auto);
+    gap: 12px 0px;
+
+}
+
+.footer-mid .row3{
+    margin: 15px 15px;
+}
+
 }
