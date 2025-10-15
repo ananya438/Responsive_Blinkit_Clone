@@ -20,14 +20,16 @@
     .search-box button{
         padding: 10px;
     }
-    /* .headerbtn{
+    .headerbtn{
         position: fixed;
         background-color: white;
         width: 100%;
         margin-right: 0px;
         justify-content: center;
         bottom: 0px;
-    } */
+        display: none;
+        /* login mycart button display: none */
+    }
     .banner-section{
         display: none;
     }
